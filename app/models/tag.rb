@@ -1,4 +1,6 @@
 class Tag < ApplicationRecord
-    belongs_to :product  # One-to-Many with Products
-  end
-  
+  has_many :product_tags
+  has_many :products, through: :product_tags
+
+  validates :name, presence: true, uniqueness: true
+end
