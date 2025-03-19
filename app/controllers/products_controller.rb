@@ -1,9 +1,9 @@
 class ProductsController < ApplicationController
   def index
-    @products = Product.all  # Fetch all products
+    @products = Product.all
   end
 
   def show
-    @product = Product.find(params[:id])  # Fetch a single product by ID
+    @product = Product.find(params[:id])
   end
 end
