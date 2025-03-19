@@ -25,9 +25,9 @@ products.each do |product|
     name: product["title"],
     price: product["price"],
     description: product["description"],
-    category: Category.find_by(name: "Electronics") || Category.first,  # Assign random category
+    category: Category.find_or_create_by(name: product["category"]) || Category.first,
     image_url: product["image"],  
-    rating: product["rating"]["rate"],
+    rating: product.dig("rating", "rate") || rand(1.0..5.0).round(1),
     stock_quantity: rand(10..100),
     discount: [0, 5, 10, 15, 20].sample
   )
@@ -37,7 +37,7 @@ puts "Seeded Fake Store API products."
 
 # Seed Products from CSV File
 puts "Seeding products from CSV file..."
-csv_text = File.read(Rails.root.join('db', 'products.csv'))
+csv_text = File.read(Rails.root.join('db', 'products_with_images.csv'))
 csv = CSV.parse(csv_text, headers: true)
 
 csv.each do |row|
@@ -46,7 +46,7 @@ csv.each do |row|
     price: row['price'].to_f,
     description: row['description'],
     category: Category.find_or_create_by(name: row['category']),
-    image_url: row['image_url'],
+    image_url: row['image_url'].strip,  # Strip spaces and ensure correct URL format
     rating: row['rating'].to_f,
     stock_quantity: row['stock_quantity'].to_i,
     discount: row['discount'].to_i

@@ -1,0 +1,9 @@
+<ul>
+  <% @products.each do |product| %>
+    <li>
+      <strong><%= link_to product.name, product_path(product) %></strong><br>
+      Price: $<%= product.price %><br>
+      <img src="<%= product.image_url %>" alt="Product Image" width="150" onerror="this.onerror=null; this.src='https://placehold.co/150';">
+    </li>
+  <% end %>
+</ul>

@@ -1,0 +1,9 @@
+<h1><%= @product.name %></h1>
+<p><strong>Price:</strong> $<%= @product.price %></p>
+<p><strong>Description:</strong> <%= @product.description %></p>
+<p><strong>Category:</strong> <%= @product.category.name %></p>
+<p><strong>Rating:</strong> <%= @product.rating %> ⭐</p>
+<p><strong>Stock:</strong> <%= @product.stock_quantity %> units</p>
+<img src="<%= @product.image_url %>" alt="Product Image" width="300">
+<br>
+<%= link_to "Back to Products", products_path %>
