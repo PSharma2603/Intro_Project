@@ -1,2 +1,4 @@
 class Order < ApplicationRecord
-end
+    has_and_belongs_to_many :products  # Many-to-Many with Products
+  end
+  

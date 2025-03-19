@@ -1,2 +1,4 @@
 class Tag < ApplicationRecord
-end
+    belongs_to :product  # One-to-Many with Products
+  end
+  
