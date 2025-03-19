@@ -1,0 +1,101 @@
+name,price,description,category,image_url,rating,stock_quantity,discount
+Product 1,616.9,A must-have tech gadget,Health & Beauty,"https://source.unsplash.com/featured/?beauty,health",1.2,32,5
+Product 2,144.56,Designed for comfort and performance,Home & Kitchen,"https://source.unsplash.com/featured/?home,kitchen",2.9,40,20
+Product 3,797.46,Perfect for everyday use,Home & Kitchen,"https://source.unsplash.com/featured/?home,kitchen",2.9,98,10
+Product 4,257.36,Enhances your experience with cutting-edge features,Clothing,https://source.unsplash.com/featured/?clothing,2.8,39,0
+Product 5,223.49,High quality and durable,Home & Kitchen,"https://source.unsplash.com/featured/?home,kitchen",1.4,52,5
+Product 6,654.04,Enhances your experience with cutting-edge features,Health & Beauty,"https://source.unsplash.com/featured/?beauty,health",1.6,21,20
+Product 7,953.71,Designed for comfort and performance,Home & Kitchen,"https://source.unsplash.com/featured/?home,kitchen",4.5,64,15
+Product 8,553.16,Enhances your experience with cutting-edge features,Books,https://source.unsplash.com/featured/?books,2.0,86,10
+Product 9,330.33,Perfect for everyday use,Electronics,https://source.unsplash.com/featured/?electronics,4.4,21,20
+Product 10,213.57,High quality and durable,Electronics,https://source.unsplash.com/featured/?electronics,1.1,99,0
+Product 11,855.77,Enhances your experience with cutting-edge features,Home & Kitchen,"https://source.unsplash.com/featured/?home,kitchen",3.1,75,20
+Product 12,233.9,Enhances your experience with cutting-edge features,Home & Kitchen,"https://source.unsplash.com/featured/?home,kitchen",2.5,36,0
+Product 13,362.09,High quality and durable,Electronics,https://source.unsplash.com/featured/?electronics,3.4,55,10
+Product 14,867.92,Enhances your experience with cutting-edge features,Home & Kitchen,"https://source.unsplash.com/featured/?home,kitchen",2.3,15,0
+Product 15,963.87,Perfect for everyday use,Clothing,https://source.unsplash.com/featured/?clothing,3.1,38,10
+Product 16,439.2,Enhances your experience with cutting-edge features,Books,https://source.unsplash.com/featured/?books,2.3,64,5
+Product 17,282.85,Designed for comfort and performance,Books,https://source.unsplash.com/featured/?books,4.2,97,0
+Product 18,32.48,Perfect for everyday use,Accessories,https://source.unsplash.com/featured/?accessories,1.7,53,20
+Product 19,441.3,High quality and durable,Accessories,https://source.unsplash.com/featured/?accessories,4.6,13,20
+Product 20,817.72,Designed for comfort and performance,Electronics,https://source.unsplash.com/featured/?electronics,2.8,10,0
+Product 21,729.0,High quality and durable,Clothing,https://source.unsplash.com/featured/?clothing,4.7,49,0
+Product 22,311.32,Perfect for everyday use,Books,https://source.unsplash.com/featured/?books,2.7,87,15
+Product 23,101.94,A must-have tech gadget,Electronics,https://source.unsplash.com/featured/?electronics,1.6,82,20
+Product 24,370.84,Perfect for everyday use,Books,https://source.unsplash.com/featured/?books,4.0,29,10
+Product 25,573.13,A must-have tech gadget,Clothing,https://source.unsplash.com/featured/?clothing,3.8,10,5
+Product 26,478.29,Designed for comfort and performance,Electronics,https://source.unsplash.com/featured/?electronics,4.3,27,0
+Product 27,169.36,Perfect for everyday use,Accessories,https://source.unsplash.com/featured/?accessories,2.0,41,5
+Product 28,275.94,Perfect for everyday use,Accessories,https://source.unsplash.com/featured/?accessories,3.9,31,0
+Product 29,923.66,Designed for comfort and performance,Electronics,https://source.unsplash.com/featured/?electronics,2.5,11,5
+Product 30,818.1,A must-have tech gadget,Clothing,https://source.unsplash.com/featured/?clothing,4.4,34,10
+Product 31,604.7,Enhances your experience with cutting-edge features,Accessories,https://source.unsplash.com/featured/?accessories,4.3,45,5
+Product 32,96.34,High quality and durable,Health & Beauty,"https://source.unsplash.com/featured/?beauty,health",1.4,42,5
+Product 33,559.7,High quality and durable,Home & Kitchen,"https://source.unsplash.com/featured/?home,kitchen",4.6,41,10
+Product 34,515.75,High quality and durable,Health & Beauty,"https://source.unsplash.com/featured/?beauty,health",4.6,47,20
+Product 35,467.35,Designed for comfort and performance,Electronics,https://source.unsplash.com/featured/?electronics,1.2,40,5
+Product 36,831.06,Perfect for everyday use,Electronics,https://source.unsplash.com/featured/?electronics,2.7,71,15
+Product 37,815.99,Enhances your experience with cutting-edge features,Home & Kitchen,"https://source.unsplash.com/featured/?home,kitchen",3.6,67,15
+Product 38,426.06,A must-have tech gadget,Clothing,https://source.unsplash.com/featured/?clothing,2.4,26,15
+Product 39,703.6,Enhances your experience with cutting-edge features,Electronics,https://source.unsplash.com/featured/?electronics,1.7,62,10
+Product 40,850.59,Perfect for everyday use,Health & Beauty,"https://source.unsplash.com/featured/?beauty,health",3.2,52,5
+Product 41,606.01,Perfect for everyday use,Clothing,https://source.unsplash.com/featured/?clothing,3.5,77,15
+Product 42,706.46,Enhances your experience with cutting-edge features,Health & Beauty,"https://source.unsplash.com/featured/?beauty,health",3.7,44,0
+Product 43,596.74,A must-have tech gadget,Health & Beauty,"https://source.unsplash.com/featured/?beauty,health",3.7,67,20
+Product 44,270.09,A must-have tech gadget,Books,https://source.unsplash.com/featured/?books,4.9,88,15
+Product 45,107.67,A must-have tech gadget,Accessories,https://source.unsplash.com/featured/?accessories,2.8,72,5
+Product 46,201.73,Designed for comfort and performance,Clothing,https://source.unsplash.com/featured/?clothing,3.2,90,15
+Product 47,57.03,Enhances your experience with cutting-edge features,Books,https://source.unsplash.com/featured/?books,3.5,79,20
+Product 48,958.73,Designed for comfort and performance,Electronics,https://source.unsplash.com/featured/?electronics,1.2,53,20
+Product 49,258.68,High quality and durable,Clothing,https://source.unsplash.com/featured/?clothing,1.6,73,5
+Product 50,84.12,A must-have tech gadget,Health & Beauty,"https://source.unsplash.com/featured/?beauty,health",3.0,52,10
+Product 51,870.22,High quality and durable,Clothing,https://source.unsplash.com/featured/?clothing,2.4,72,10
+Product 52,10.01,A must-have tech gadget,Health & Beauty,"https://source.unsplash.com/featured/?beauty,health",1.7,96,5
+Product 53,725.79,Designed for comfort and performance,Books,https://source.unsplash.com/featured/?books,5.0,86,5
+Product 54,929.23,Perfect for everyday use,Home & Kitchen,"https://source.unsplash.com/featured/?home,kitchen",3.8,19,10
+Product 55,791.7,Enhances your experience with cutting-edge features,Books,https://source.unsplash.com/featured/?books,3.5,52,0
+Product 56,440.83,Perfect for everyday use,Clothing,https://source.unsplash.com/featured/?clothing,1.7,30,0
+Product 57,702.96,High quality and durable,Electronics,https://source.unsplash.com/featured/?electronics,1.9,34,20
+Product 58,435.96,A must-have tech gadget,Books,https://source.unsplash.com/featured/?books,4.4,28,20
+Product 59,495.89,A must-have tech gadget,Accessories,https://source.unsplash.com/featured/?accessories,4.7,34,5
+Product 60,356.38,High quality and durable,Electronics,https://source.unsplash.com/featured/?electronics,1.8,32,10
+Product 61,329.05,Designed for comfort and performance,Clothing,https://source.unsplash.com/featured/?clothing,3.9,83,20
+Product 62,481.4,Designed for comfort and performance,Books,https://source.unsplash.com/featured/?books,2.9,54,20
+Product 63,669.14,Perfect for everyday use,Clothing,https://source.unsplash.com/featured/?clothing,4.0,33,5
+Product 64,171.58,High quality and durable,Clothing,https://source.unsplash.com/featured/?clothing,1.2,91,10
+Product 65,743.64,Designed for comfort and performance,Accessories,https://source.unsplash.com/featured/?accessories,4.2,16,15
+Product 66,44.65,Designed for comfort and performance,Accessories,https://source.unsplash.com/featured/?accessories,5.0,88,10
+Product 67,256.48,Perfect for everyday use,Home & Kitchen,"https://source.unsplash.com/featured/?home,kitchen",4.7,78,10
+Product 68,730.39,Enhances your experience with cutting-edge features,Clothing,https://source.unsplash.com/featured/?clothing,1.4,17,10
+Product 69,364.55,Designed for comfort and performance,Accessories,https://source.unsplash.com/featured/?accessories,2.7,53,20
+Product 70,859.54,A must-have tech gadget,Health & Beauty,"https://source.unsplash.com/featured/?beauty,health",2.7,95,0
+Product 71,676.35,Perfect for everyday use,Home & Kitchen,"https://source.unsplash.com/featured/?home,kitchen",2.0,15,0
+Product 72,711.04,Enhances your experience with cutting-edge features,Health & Beauty,"https://source.unsplash.com/featured/?beauty,health",2.5,43,20
+Product 73,829.9,Enhances your experience with cutting-edge features,Books,https://source.unsplash.com/featured/?books,4.4,32,0
+Product 74,233.34,Perfect for everyday use,Health & Beauty,"https://source.unsplash.com/featured/?beauty,health",2.8,41,0
+Product 75,263.67,Designed for comfort and performance,Clothing,https://source.unsplash.com/featured/?clothing,2.4,54,0
+Product 76,765.79,Perfect for everyday use,Health & Beauty,"https://source.unsplash.com/featured/?beauty,health",2.2,58,5
+Product 77,331.49,Perfect for everyday use,Accessories,https://source.unsplash.com/featured/?accessories,3.2,51,20
+Product 78,328.03,Designed for comfort and performance,Books,https://source.unsplash.com/featured/?books,3.5,94,15
+Product 79,299.53,A must-have tech gadget,Clothing,https://source.unsplash.com/featured/?clothing,2.1,44,20
+Product 80,989.11,Enhances your experience with cutting-edge features,Books,https://source.unsplash.com/featured/?books,2.9,49,20
+Product 81,831.97,High quality and durable,Clothing,https://source.unsplash.com/featured/?clothing,1.2,49,5
+Product 82,786.41,Perfect for everyday use,Home & Kitchen,"https://source.unsplash.com/featured/?home,kitchen",3.4,87,15
+Product 83,436.24,A must-have tech gadget,Electronics,https://source.unsplash.com/featured/?electronics,1.5,84,10
+Product 84,953.94,High quality and durable,Health & Beauty,"https://source.unsplash.com/featured/?beauty,health",1.3,22,10
+Product 85,630.2,High quality and durable,Electronics,https://source.unsplash.com/featured/?electronics,4.0,26,20
+Product 86,890.95,High quality and durable,Clothing,https://source.unsplash.com/featured/?clothing,4.6,66,10
+Product 87,288.65,Enhances your experience with cutting-edge features,Electronics,https://source.unsplash.com/featured/?electronics,4.8,61,10
+Product 88,108.6,A must-have tech gadget,Health & Beauty,"https://source.unsplash.com/featured/?beauty,health",1.1,37,15
+Product 89,78.04,Enhances your experience with cutting-edge features,Accessories,https://source.unsplash.com/featured/?accessories,4.7,33,20
+Product 90,501.26,High quality and durable,Health & Beauty,"https://source.unsplash.com/featured/?beauty,health",1.4,78,15
+Product 91,707.72,A must-have tech gadget,Accessories,https://source.unsplash.com/featured/?accessories,1.7,38,10
+Product 92,81.28,Perfect for everyday use,Health & Beauty,"https://source.unsplash.com/featured/?beauty,health",4.1,58,0
+Product 93,810.67,Designed for comfort and performance,Clothing,https://source.unsplash.com/featured/?clothing,1.4,80,10
+Product 94,620.17,Designed for comfort and performance,Health & Beauty,"https://source.unsplash.com/featured/?beauty,health",1.9,13,0
+Product 95,59.24,High quality and durable,Books,https://source.unsplash.com/featured/?books,2.4,49,0
+Product 96,453.21,High quality and durable,Accessories,https://source.unsplash.com/featured/?accessories,2.4,95,5
+Product 97,401.18,Enhances your experience with cutting-edge features,Books,https://source.unsplash.com/featured/?books,4.4,57,15
+Product 98,15.69,Perfect for everyday use,Health & Beauty,"https://source.unsplash.com/featured/?beauty,health",4.8,43,5
+Product 99,684.23,A must-have tech gadget,Home & Kitchen,"https://source.unsplash.com/featured/?home,kitchen",4.9,15,10
+Product 100,152.02,Enhances your experience with cutting-edge features,Electronics,https://source.unsplash.com/featured/?electronics,3.2,75,10
