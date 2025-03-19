@@ -1,0 +1,21 @@
+<h1>Orders</h1>
+<table border="1">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>User Name</th>
+      <th>Total Price</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @orders.each do |order| %>
+      <tr>
+        <td><%= order.id %></td>
+        <td><%= order.user_name %></td>
+        <td>$<%= order.total_price %></td>
+        <td><%= link_to "View Details", order_path(order) %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
