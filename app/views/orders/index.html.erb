@@ -1,21 +1,24 @@
-<h1>Orders</h1>
-<table border="1">
-  <thead>
-    <tr>
-      <th>ID</th>
-      <th>User Name</th>
-      <th>Total Price</th>
-      <th>Actions</th>
-    </tr>
-  </thead>
-  <tbody>
-    <% @orders.each do |order| %>
+<h1 class="text-center">Orders</h1>
+
+<div class="table-container">
+  <table class="table">
+    <thead>
       <tr>
-        <td><%= order.id %></td>
-        <td><%= order.user_name %></td>
-        <td>$<%= order.total_price %></td>
-        <td><%= link_to "View Details", order_path(order) %></td>
+        <th>ID</th>
+        <th>User Name</th>
+        <th>Total Price</th>
+        <th>Actions</th>
       </tr>
-    <% end %>
-  </tbody>
-</table>
+    </thead>
+    <tbody>
+      <% @orders.each do |order| %>
+        <tr>
+          <td><%= order.id %></td>
+          <td><%= order.user_name %></td>
+          <td>$<%= order.total_price %></td>
+          <td><%= link_to "View Details", order_path(order), class: "view-button" %></td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+</div>
