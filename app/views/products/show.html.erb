@@ -1,9 +1,27 @@
-<h1><%= @product.name %></h1>
+<h1>Product Details</h1>
+
+<p><strong>Name:</strong> <%= @product.name %></p>
 <p><strong>Price:</strong> $<%= @product.price %></p>
 <p><strong>Description:</strong> <%= @product.description %></p>
-<p><strong>Category:</strong> <%= @product.category.name %></p>
+<p><strong>Category:</strong> <%= @product.category.name if @product.category %></p>
+<p><strong>Stock:</strong> <%= @product.stock_quantity %> items</p>
 <p><strong>Rating:</strong> <%= @product.rating %> ⭐</p>
-<p><strong>Stock:</strong> <%= @product.stock_quantity %> units</p>
-<img src="<%= @product.image_url %>" alt="Product Image" width="300">
+<p><strong>Discount:</strong> <%= @product.discount %>%</p>
+<p><img src="<%= @product.image_url %>" width="200" alt="<%= @product.name %>"></p>
+
+<h2>Vendors</h2>
+<ul>
+  <% @product.vendors.each do |vendor| %>
+    <li><%= link_to vendor.name, vendor_path(vendor) %></li>
+  <% end %>
+</ul>
+
+<h2>Orders Containing This Product</h2>
+<ul>
+  <% @product.orders.each do |order| %>
+    <li><%= link_to "Order ##{order.id} (Total: $#{order.total_price})", order_path(order) %></li>
+  <% end %>
+</ul>
+
 <br>
 <%= link_to "Back to Products", products_path %>
