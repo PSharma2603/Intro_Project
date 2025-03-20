@@ -3,25 +3,41 @@
 <p><strong>Name:</strong> <%= @product.name %></p>
 <p><strong>Price:</strong> $<%= @product.price %></p>
 <p><strong>Description:</strong> <%= @product.description %></p>
-<p><strong>Category:</strong> <%= @product.category.name if @product.category %></p>
 <p><strong>Stock:</strong> <%= @product.stock_quantity %> items</p>
 <p><strong>Rating:</strong> <%= @product.rating %> ⭐</p>
 <p><strong>Discount:</strong> <%= @product.discount %>%</p>
+
+<p><strong>Category:</strong> 
+  <% if @product.category %>
+    <%= link_to @product.category.name, category_path(@product.category) %>
+  <% else %>
+    No Category Assigned
+  <% end %>
+</p>
+
 <p><img src="<%= @product.image_url %>" width="200" alt="<%= @product.name %>"></p>
 
 <h2>Vendors</h2>
-<ul>
-  <% @product.vendors.each do |vendor| %>
-    <li><%= link_to vendor.name, vendor_path(vendor) %></li>
-  <% end %>
-</ul>
+<% if @product.vendors.any? %>
+  <ul>
+    <% @product.vendors.each do |vendor| %>
+      <li><%= link_to vendor.name, vendor_path(vendor) %></li>
+    <% end %>
+  </ul>
+<% else %>
+  <p>No vendors available for this product.</p>
+<% end %>
 
 <h2>Orders Containing This Product</h2>
-<ul>
-  <% @product.orders.each do |order| %>
-    <li><%= link_to "Order ##{order.id} (Total: $#{order.total_price})", order_path(order) %></li>
-  <% end %>
-</ul>
+<% if @product.orders.any? %>
+  <ul>
+    <% @product.orders.each do |order| %>
+      <li><%= link_to "Order ##{order.id} (Total: $#{order.total_price})", order_path(order) %></li>
+    <% end %>
+  </ul>
+<% else %>
+  <p>This product has not been ordered yet.</p>
+<% end %>
 
 <br>
 <%= link_to "Back to Products", products_path %>

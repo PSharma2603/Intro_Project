@@ -1,9 +1,6 @@
 Rails.application.routes.draw do
-  get "vendors/index"
-  get "vendors/show"
-  get "orders/index"
-  get "orders/show"
-  get "pages/about"
+  get "categories/index"
+  get "categories/show"
   # Root path (Homepage)
   root "products#index"  
 
@@ -12,6 +9,7 @@ Rails.application.routes.draw do
   resources :orders, only: [:index, :show]
   resources :vendors, only: [:index, :show]
   resources :users, only: [:index, :show]
+  resources :categories, only: [:index, :show]  # Added categories for Feature 3.4
 
   # Static Pages
   get "about", to: "pages#about"

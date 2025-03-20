@@ -16,9 +16,15 @@
       <tr>
         <td><%= product.id %></td>
         <td><img src="<%= product.image_url %>" width="50" alt="<%= product.name %>"></td>
-        <td><%= product.name %></td>
+        <td><%= link_to product.name, product_path(product) %></td>
         <td>$<%= product.price %></td>
-        <td><%= product.category.name if product.category %></td>
+        <td>
+          <% if product.category %>
+            <%= link_to product.category.name, category_path(product.category) %>
+          <% else %>
+            No Category
+          <% end %>
+        </td>
         <td><%= link_to "View", product_path(product) %></td>
       </tr>
     <% end %>
