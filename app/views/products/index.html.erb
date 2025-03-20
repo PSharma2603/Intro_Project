@@ -1,6 +1,18 @@
 <h1>All Products</h1>
 
-<table border="1">
+<!-- Search Form (Simple Search + Category Filtering) -->
+<%= form_with url: products_path, method: :get, local: true do %>
+  <label>Search:</label>
+  <%= text_field_tag :query, params[:query], placeholder: "Search products..." %>
+
+  <label>Category:</label>
+  <%= select_tag :category_id, options_from_collection_for_select(Category.all, :id, :name, params[:category_id]), include_blank: "All Categories" %>
+
+  <%= submit_tag "Search" %>
+<% end %>
+
+<!-- Product List Table -->
+<table class="table table-striped">
   <thead>
     <tr>
       <th>ID</th>

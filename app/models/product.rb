@@ -2,8 +2,7 @@ class Product < ApplicationRecord
   belongs_to :category
   has_and_belongs_to_many :vendors
   has_and_belongs_to_many :orders
-  has_many :product_tags
-  has_many :tags, through: :product_tags
+
 
   validates :name, presence: true, uniqueness: true
   validates :price, presence: true, numericality: { greater_than: 0 }

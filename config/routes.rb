@@ -1,11 +1,16 @@
 Rails.application.routes.draw do
-  get "categories/index"
-  get "categories/show"
+    get "categories/index"
+    get "categories/show"
   # Root path (Homepage)
   root "products#index"  
 
   # Define RESTful routes for core resources
-  resources :products, only: [:index, :show]
+  resources :products, only: [:index, :show] do
+    collection do
+      get 'search' # Route for product search
+    end
+  end
+
   resources :orders, only: [:index, :show]
   resources :vendors, only: [:index, :show]
   resources :users, only: [:index, :show]
